@@ -1,0 +1,33 @@
+{
+	"id": "28d0a10b-6b0d-4599-8e0f-3a609a4a22cb",
+	"values": [
+		{
+			"key": "Gassignment_sysid",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "Gclassroom_sysid",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "GlobalID",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "GlobalKEY",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		}
+	],
+	"name": "Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2022-10-25T07:59:51.993Z",
+	"_postman_exported_using": "Postman/10.0.35"
+}
