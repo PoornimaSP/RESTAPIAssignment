@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="6088" started-at="2022-10-31T15:14:06 IST" finished-at="2022-10-31T15:14:12 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="6088" started-at="2022-10-31T15:14:06 IST" finished-at="2022-10-31T15:14:12 IST">
+      <class name="jira_RestAssured.GETIssueBasedonKey">
+        <test-method status="PASS" signature="initialSetUp()[pri:0, instance:jira_RestAssured.GETIssueBasedonKey@6f195bc3]" name="initialSetUp" is-config="true" duration-ms="1" started-at="2022-10-31T15:14:09 IST" finished-at="2022-10-31T15:14:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSetUp -->
+        <test-method status="PASS" signature="runGETJIRAIssue()[pri:0, instance:jira_RestAssured.GETIssueBasedonKey@6f195bc3]" name="runGETJIRAIssue" duration-ms="490" started-at="2022-10-31T15:14:09 IST" depends-on-methods="jira_RestAssured.CreateJIRAIssue.runCreateJIRAIssue" finished-at="2022-10-31T15:14:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runGETJIRAIssue -->
+      </class> <!-- jira_RestAssured.GETIssueBasedonKey -->
+      <class name="jira_RestAssured.GETIssueBasedonKeyPostUpdate">
+        <test-method status="PASS" signature="initialSetUp()[pri:0, instance:jira_RestAssured.GETIssueBasedonKeyPostUpdate@1a8a8f7c]" name="initialSetUp" is-config="true" duration-ms="3" started-at="2022-10-31T15:14:11 IST" finished-at="2022-10-31T15:14:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSetUp -->
+        <test-method status="PASS" signature="runGETJIRAIssue()[pri:0, instance:jira_RestAssured.GETIssueBasedonKeyPostUpdate@1a8a8f7c]" name="runGETJIRAIssue" duration-ms="559" started-at="2022-10-31T15:14:11 IST" depends-on-methods="jira_RestAssured.UpdateJIRAIssue.runUpdateJIRAIssue" finished-at="2022-10-31T15:14:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runGETJIRAIssue -->
+      </class> <!-- jira_RestAssured.GETIssueBasedonKeyPostUpdate -->
+      <class name="jira_RestAssured.DeleteIssue">
+        <test-method status="PASS" signature="initialSetUp()[pri:0, instance:jira_RestAssured.DeleteIssue@51e2adc7]" name="initialSetUp" is-config="true" duration-ms="4" started-at="2022-10-31T15:14:11 IST" finished-at="2022-10-31T15:14:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSetUp -->
+        <test-method status="PASS" signature="runDeleteIssue()[pri:0, instance:jira_RestAssured.DeleteIssue@51e2adc7]" name="runDeleteIssue" duration-ms="718" started-at="2022-10-31T15:14:11 IST" depends-on-methods="jira_RestAssured.GETIssueBasedonKeyPostUpdate.runGETJIRAIssue" finished-at="2022-10-31T15:14:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runDeleteIssue -->
+      </class> <!-- jira_RestAssured.DeleteIssue -->
+      <class name="jira_RestAssured.CreateJIRAIssue">
+        <test-method status="PASS" signature="initialSetUp()[pri:0, instance:jira_RestAssured.CreateJIRAIssue@2353b3e6]" name="initialSetUp" is-config="true" duration-ms="874" started-at="2022-10-31T15:14:06 IST" finished-at="2022-10-31T15:14:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSetUp -->
+        <test-method status="PASS" signature="runCreateJIRAIssue()[pri:0, instance:jira_RestAssured.CreateJIRAIssue@2353b3e6]" name="runCreateJIRAIssue" duration-ms="2740" started-at="2022-10-31T15:14:07 IST" finished-at="2022-10-31T15:14:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateJIRAIssue -->
+      </class> <!-- jira_RestAssured.CreateJIRAIssue -->
+      <class name="jira_RestAssured.UpdateJIRAIssue">
+        <test-method status="PASS" signature="initialSetUp()[pri:0, instance:jira_RestAssured.UpdateJIRAIssue@27a8c74e]" name="initialSetUp" is-config="true" duration-ms="6" started-at="2022-10-31T15:14:10 IST" finished-at="2022-10-31T15:14:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSetUp -->
+        <test-method status="PASS" signature="runUpdateJIRAIssue()[pri:0, instance:jira_RestAssured.UpdateJIRAIssue@27a8c74e]" name="runUpdateJIRAIssue" duration-ms="622" started-at="2022-10-31T15:14:10 IST" depends-on-methods="jira_RestAssured.GETIssueBasedonKey.runGETJIRAIssue" finished-at="2022-10-31T15:14:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runUpdateJIRAIssue -->
+      </class> <!-- jira_RestAssured.UpdateJIRAIssue -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
