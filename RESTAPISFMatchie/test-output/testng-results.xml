@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12939" started-at="2022-11-14T13:00:20 IST" finished-at="2022-11-14T13:00:32 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunTest@1a6f2363]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="12939" started-at="2022-11-14T13:00:20 IST" finished-at="2022-11-14T13:00:32 IST">
+      <class name="runner.RunTest">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.RunTest@1a6f2363]" name="setUpClass" is-config="true" duration-ms="1370" started-at="2022-11-14T13:00:20 IST" finished-at="2022-11-14T13:00:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5e643402]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunTest@1a6f2363]" name="runScenario" duration-ms="6422" started-at="2022-11-14T13:00:21 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-14T13:00:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC001_Create New Lead"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Salesforce_LeadManagement]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunTest@1a6f2363]" name="runScenario" duration-ms="916" started-at="2022-11-14T13:00:28 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-14T13:00:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC002_Update Lead"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Salesforce_LeadManagement]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunTest@1a6f2363]" name="runScenario" duration-ms="1001" started-at="2022-11-14T13:00:28 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-14T13:00:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC003_Get Lead detail before Delete"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Salesforce_LeadManagement]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunTest@1a6f2363]" name="runScenario" duration-ms="927" started-at="2022-11-14T13:00:29 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-14T13:00:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC004_Delete Lead"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Salesforce_LeadManagement]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunTest@1a6f2363]" name="runScenario" duration-ms="689" started-at="2022-11-14T13:00:30 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-14T13:00:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC003_Get Lead detail after Delete"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Salesforce_LeadManagement]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.RunTest@1a6f2363]" name="tearDownClass" is-config="true" duration-ms="1364" started-at="2022-11-14T13:00:31 IST" finished-at="2022-11-14T13:00:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.RunTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
